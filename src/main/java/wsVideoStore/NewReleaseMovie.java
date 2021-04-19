@@ -1,6 +1,9 @@
+package wsVideoStore;
+
+
 public class NewReleaseMovie extends Movie {
   public NewReleaseMovie(String title) {
-    super(title);
+    super(title, 1);
   }
 
   public double determineAmount(int daysRented) {
