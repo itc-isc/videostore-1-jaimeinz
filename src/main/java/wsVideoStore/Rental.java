@@ -20,4 +20,8 @@ public class Rental
   public int determineFrequentRenterPoints() {
     return movie.determineFrequentRenterPoints(daysRented);
   }
+
+  public Movie getMovie(){
+      return movie;
+  }
 }
