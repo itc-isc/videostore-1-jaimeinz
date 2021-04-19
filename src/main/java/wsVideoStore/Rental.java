@@ -24,4 +24,8 @@ public class Rental
   public Movie getMovie(){
       return movie;
   }
+
+  public int getDaysRented() {
+      return daysRented;
+  }
 }
